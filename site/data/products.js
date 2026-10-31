@@ -1,0 +1,21 @@
+/*
+ * Sample products, shown only while config.js has no sheetCsvUrl
+ * (or if the sheet cannot be reached and nothing is cached yet).
+ * Field names match the Google Sheet column headings.
+ */
+window.SAMPLE_PRODUCTS = [
+  { id: "WB001", name: "Stainless Steel Water Bottle 123", category: "Water Bottles", brand: "Milton", price: "649", mrp: "799", unit: "1 litre", image: "", more_images: "", description: "Single-wall food-grade steel. Leak-proof cap, rust-free, easy to clean.", in_stock: "yes", featured: "yes" },
+  { id: "WB002", name: "Thermosteel Flask Bottle", category: "Water Bottles", brand: "Milton", price: "1099", mrp: "1395", unit: "1 litre", image: "", more_images: "", description: "Keeps drinks hot or cold for up to 24 hours. Double-wall vacuum insulated.", in_stock: "yes", featured: "yes" },
+  { id: "WB003", name: "Kids Sipper Bottle", category: "Water Bottles", brand: "Cello", price: "299", mrp: "350", unit: "500 ml", image: "", more_images: "", description: "BPA-free plastic sipper with straw and strap. Ideal for school.", in_stock: "yes", featured: "" },
+  { id: "WB004", name: "Fridge Bottle Set", category: "Water Bottles", brand: "Signoraware", price: "449", mrp: "540", unit: "Set of 4 × 1 litre", image: "", more_images: "", description: "Unbreakable fridge bottles with flip caps, assorted colours.", in_stock: "no", featured: "" },
+  { id: "TF001", name: "3-Tier Steel Tiffin", category: "Tiffins & Lunch Boxes", brand: "Vinod", price: "549", mrp: "650", unit: "3 containers", image: "", more_images: "", description: "Classic stainless steel tiffin with lock clip and carry handle.", in_stock: "yes", featured: "yes" },
+  { id: "TF002", name: "Insulated Lunch Box", category: "Tiffins & Lunch Boxes", brand: "Milton", price: "899", mrp: "1100", unit: "3 containers + bag", image: "", more_images: "", description: "Steel containers in an insulated fabric bag. Keeps food warm for hours.", in_stock: "yes", featured: "yes" },
+  { id: "TF003", name: "Kids Lunch Box with Spoon", category: "Tiffins & Lunch Boxes", brand: "Cello", price: "249", mrp: "299", unit: "1 pc", image: "", more_images: "", description: "Leak-proof compartments with a spoon and fork included.", in_stock: "yes", featured: "" },
+  { id: "KS001", name: "Airtight Storage Containers", category: "Kitchen Storage", brand: "Tupperware", price: "799", mrp: "950", unit: "Set of 6", image: "", more_images: "", description: "Stackable airtight containers for dals, spices and snacks.", in_stock: "yes", featured: "" },
+  { id: "KS002", name: "Masala Box (Spice Dabba)", category: "Kitchen Storage", brand: "Vinod", price: "399", mrp: "480", unit: "7 compartments", image: "", more_images: "", description: "Stainless steel spice box with see-through lid and small spoon.", in_stock: "yes", featured: "yes" },
+  { id: "CW001", name: "Non-stick Tawa", category: "Cookware", brand: "Prestige", price: "699", mrp: "895", unit: "28 cm", image: "", more_images: "", description: "Induction-friendly non-stick tawa with a heat-resistant handle.", in_stock: "yes", featured: "" },
+  { id: "CW002", name: "Pressure Cooker", category: "Cookware", brand: "Hawkins", price: "1650", mrp: "1950", unit: "3 litre", image: "", more_images: "", description: "Aluminium pressure cooker with a safety valve. ISI marked.", in_stock: "yes", featured: "" },
+  { id: "HE001", name: "Steel Bucket with Lid", category: "Home Essentials", brand: "", price: "549", mrp: "", unit: "16 litre", image: "", more_images: "", description: "Durable stainless steel bucket for everyday household use.", in_stock: "yes", featured: "" },
+  { id: "HE002", name: "Microfibre Cleaning Cloths", category: "Home Essentials", brand: "Scotch-Brite", price: "199", mrp: "250", unit: "Pack of 3", image: "", more_images: "", description: "Lint-free, highly absorbent cloths for kitchen and glass.", in_stock: "yes", featured: "" },
+  { id: "HE003", name: "Dish Drying Rack", category: "Home Essentials", brand: "", price: "899", mrp: "1199", unit: "2-tier", image: "", more_images: "", description: "Rust-proof rack with cutlery holder and drip tray.", in_stock: "yes", featured: "" },
+];
